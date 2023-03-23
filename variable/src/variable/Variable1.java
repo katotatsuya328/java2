@@ -17,13 +17,13 @@ public class Variable1 {
 		String name = "加藤達也";
 		String sex = "男";
 		int age =24;
-		String height="179.2cm";
+		double height=179.2;
 		
 		System.out.println("私の自己紹介をします。");
 		System.out.println("名前は"+name+"です。");
 		System.out.println("性別は"+sex+"です。");
 		System.out.println("年齢は"+age+"歳です。");
-		System.out.println("身長は"+height+"です。");
+		System.out.println("身長は"+height+"cmです。");
 		System.out.println("よろしくお願いします。");
 		
 	}
