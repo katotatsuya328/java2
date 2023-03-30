@@ -1,4 +1,4 @@
-package conditional_expression;
+package conditional_expression_lesson1_9;
 
 public class ConditionalExpression {
 	public static void main(String[] args) {
