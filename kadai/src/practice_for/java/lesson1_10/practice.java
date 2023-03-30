@@ -18,10 +18,8 @@ public class practice {
 	public static void main(String[] args) {
 		int i =1;
 		for(i=1; i<=21; i+=2) {
+		//値が21(条件式)に当てはまるまで実行される処理
 			System.out.println(i);
 		}
-
-
 	}
-
 }
