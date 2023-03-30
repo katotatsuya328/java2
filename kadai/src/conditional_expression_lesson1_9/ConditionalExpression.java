@@ -21,16 +21,16 @@ public class ConditionalExpression {
 //		もし score が 80点以上なら「〇〇さんは□□点です。たいへんよくできました。」とコンソールに出力して下さい。
 		String name = "田中";
 		int score = new java.util.Random().nextInt(101);
-		if(score < 40) {
+		if(score <= 40) {
 			System.out.println(name+"さんは"+score+"点です。もう少し頑張りましょう。");
 		}
-		if(score > 40 && score <60 ) {
+		if(score >= 40 && score <=60 ) {
 			System.out.println(name+"さんは"+score+"点です。もう少しでした。");
 		}
-		if(score > 60 && score< 80 ) {
+		if(score >= 60 && score <= 80 ) {
 			System.out.println(name+"さんは"+score+"点です。よくできました");
 		}
-		if(score > 80) {
+		if(score >= 80) {
 			System.out.println(name+"さんは"+score+"点です。たいへんよくできました。");
 		}
 		
@@ -50,10 +50,12 @@ public class ConditionalExpression {
 			System.out.println("私は疲れています。");
 		}
 		
+		
 		isTired = 0;
 		
 		if(isTired == 0) {
-			System.out.println(study+"を続けます。");
+			study = (isTired == 0) ? study+"を続けます。" : "私は疲れています";
+	        System.out.println(study);
 		}
 	}
 }
