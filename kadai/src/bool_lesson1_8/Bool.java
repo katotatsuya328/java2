@@ -9,6 +9,9 @@ public class Bool {
 		int b = 5;
 		boolean result1 = a >= b;
 		System.out.println(result1);
+		
+		//以上を記載する際は、>ではなく、<=,>=を記載する
+		//～よりは>,<だけ
 
 //		問２）
 //		以下の変数を使ってboolean型変数 result_2 に「変数 c の値と変数 d の値は等しくない」という条件式を代入して下さい。
@@ -23,14 +26,14 @@ public class Bool {
 //		boolean型変数 result_3 をコンソールに出力して下さい。
 		int e = 12;
 		int f = 8;
-		boolean result3 = e >=10 && f<=10;
+		boolean result3 = e > 10 && f < 10;
 		System.out.println(result3);
 		
 //		問４）
 //		以下の変数を使ってboolean型変数 result_4 に「変数 g の値は5以下 または 変数 g の値は10以上」という条件式を代入して下さい。
 //		boolean型変数 result_4 をコンソールに出力して下さい。
 		int g = 7;
-		boolean result4 = g < 5 || g>10;
+		boolean result4 = g <= 5 || g >= 10;
 		System.out.println(result4);
 
 	}
