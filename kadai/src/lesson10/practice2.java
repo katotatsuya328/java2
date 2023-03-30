@@ -7,7 +7,7 @@
 						・
 				9×1=9 9×2=18…9×9=81
 				*/
-package practice_for.java.lesson1_10;
+package lesson10;
 
 public class practice2 {
 	

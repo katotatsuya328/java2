@@ -11,7 +11,7 @@
 					・
 					21
 					*/
-package practice_for.java.lesson1_10;
+package lesson10;
 
 public class practice {
 
