@@ -22,9 +22,9 @@ public class practice2 {
 			for(int j =0; j < num.length;j++) {
 				//変数iとjを一つの変数にまとめる処理
 				int kuku =num[i] * num[j];
-				System.out.println(num[i] + "×" +num[j]+"="+kuku);
-				
+				System.out.print(num[i] + "×" +num[j]+"="+kuku+" ");
 			}
+			System.out.println();
 		}
 	
 	}
