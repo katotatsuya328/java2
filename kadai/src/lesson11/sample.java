@@ -16,23 +16,23 @@ public class sample {
 
 public static void main(String[] args) {
 	
-	int [] num = {1,2,3,4,5,6,7,8,9,10,11};
+	int num =4;
 	
-	switch(num[2]) {
+	switch(num) {
 	
 	case 2:
 		//条件式のnumの値が2だった場合、実行。
-		System.out.println(num[1]+"月は28日です。");
+		System.out.println(num+"月は28日です。");
 		break;
 		
 	case 4,6,9,11:
 		//条件式のnumの値が4,6,9,11だった場合、実行。
-		System.out.println(num[3]+"月は30日です。");
+		System.out.println(num+"月は30日です。");
 		break;
 		
 	default:
 		//条件式のnumの値がいずれもあてははまらない場合、実行。
-		System.out.println(num[0]+"月は31日です。");
+		System.out.println(num+"月は31日です。");
 		break;
 		
 //	}
