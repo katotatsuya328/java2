@@ -17,9 +17,9 @@ public class practice {
 
 	public static void main(String[] args) {
 		int i =1;
-		for(i=3; i<=21; i+=2) {
+		for(int c=2; c<=21; c+=2) {
 		//値が21(条件式)に当てはまるまで実行される処理
-			System.out.println(i);
+			System.out.println(i+c);
 		}
 	}
 }
