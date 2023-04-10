@@ -27,9 +27,9 @@ public class DataTypeAndMemory {
 		// Q6：Q5で作成した変数numsを変数bに代入し、その後変数bのメモリの番地が1のデータを「8」に上書きさせて
 		//     コンソールに変数numsと変数bのメモリの番地が1のデータを出力させて、変数nums値が変わることを確認してください。	
 
-		int [] b= nums;
-		b[1] = 8;	//8が表示
-		System.out.println(b[1]);			//100が表示
+		int [] b= nums;	//numsの配列をbに代入
+		b[1] = 8;		//b[1]の中身を上書き
+		System.out.println(b[1]);			//8が表示
 
 	}
 
