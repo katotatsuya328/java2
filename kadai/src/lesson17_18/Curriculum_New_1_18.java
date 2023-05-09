@@ -52,7 +52,7 @@ public class Curriculum_New_1_18{
 		//引数の回数文作られたランダムな数字を順番にコンソールで出力
 		for(int con=0; con < RandomMix.length; con++) {
 			System.out.println(RandomMix[con] = math.nextInt(100)+1);
-		//xの値に+1で表示を1～100にする
+		//xの値に+1で表示を1～100にする。
 		}
 		System.out.println("");
 		//格納した値を返す
