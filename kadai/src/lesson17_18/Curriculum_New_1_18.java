@@ -18,7 +18,7 @@ public class Curriculum_New_1_18{
 		System.out.println("");
 	}
 	
-	// Q3：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください
+	// Q3：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください。
 	public static void printArray(int num){
 		//変数arrayの中に配列を入れ、配列の数を画面出力
 		
