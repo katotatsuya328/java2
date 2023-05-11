@@ -96,18 +96,18 @@ public class Curriculum_New_1_18{
 	public static void main(String[] args) {
     // 作成したメソッドをここで呼び出してください	
 
-	hello("Hello JavaSE",11);// Q1
+	hello("Hello JavaSE",11);	// Q1
 
-	add(2,1000);// Q2
+	add(2,1000);	// Q2
 	
-	printArray(1);// Q3
+	printArray(1);	// Q3
 	
-	add(1.5,2.3);// Q4
+	add(1.5,2.3);	// Q4
 
 	int[] ave = new int[5];
-	ave=random(5);// Q5
+	ave=random(5);	// Q5
 	
-	double averageResult = average(ave);// Q6
+	double averageResult = average(ave);	// Q6
 	
 	System.out.println(bool(averageResult));	//Q7
 	
