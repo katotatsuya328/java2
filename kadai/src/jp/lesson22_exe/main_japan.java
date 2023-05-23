@@ -1,23 +1,25 @@
 package jp.lesson22_exe;
 
-import jp.lesson22_process.sushi;
+import jp.lesson22_process.japan;
 
-public class japan {
+public class main_japan {
 	
 	public static void main (String[] args) {
 		
 		//sushiクラスのsayHelloメソッドの呼び出し
-		sushi.sayHello();
+		japan country = new japan();
+		country.sayHello();
 		
 		//sushiクラスのsayDeliciousメソッドの呼び出し
+		japan sushi = new japan();
 		sushi.sayDelicious();
 
 		//sushiクラスのJapanFoodメソッドの呼び出し
-		sushi jpfood = new sushi();
+		japan jpfood = new japan();
 		jpfood.JapanFood();
 		
 		//sushiクラスのnowTimeメソッドの呼び出し
-		sushi now = new sushi();
+		japan now = new japan();
 		now.nowTime();
 	}
 }

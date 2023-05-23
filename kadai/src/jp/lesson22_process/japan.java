@@ -4,21 +4,23 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class sushi{
+public class japan{
 	
 	//フィールドの初期値の宣言
-	String food = "寿司";
+	String sushi = "寿司";
+	String country = "日本";
+	String jpfood ="和食";
 	
-	public static void sayHello() {
-		System.out.println("こんにちは！ここは日本です！");
+	public void sayHello() {
+		System.out.println("こんにちは！ここは"+this.country+"です！");
 	}
 	
-	public static void sayDelicious() {
-		System.out.println("この寿司はうまい");		
+	public void sayDelicious() {
+		System.out.println("この"+this.sushi+"はうまい");		
 	}
 	
 	public void JapanFood() {
-		System.out.println(this.food+"は和食です");
+		System.out.println(this.sushi+"は"+this.jpfood+"です");
 	}
 	
 	public void nowTime() {
