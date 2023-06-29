@@ -3,15 +3,19 @@ package lesson25;
 public class Main {
 	
 	public static void main(String[] args ) {
-	
-	//オーバーライド後
-	Hero2 stutas  = new Hero2();
-		stutas.setName("勇者");
+		
+		System.out.println("あなたの名前を入力して下さい");
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        String name = scanner.nextLine();
+        
+		//オーバーライド後
+		Hero2 stutas  = new Hero2();
+		stutas.setName(name);
 		stutas.display();
+		scanner.close();
 }
 
 }
-
 
 /*
 

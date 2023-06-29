@@ -22,6 +22,7 @@ public class Hero2 extends Hero {
 		System.out.println("攻撃力："+this.attack);
 		System.out.println("素早さ："+this.speed);
 		System.out.println("防御力："+this.defense);
+		System.out.println("");
 		System.out.println(super.message2);
 	}
 }

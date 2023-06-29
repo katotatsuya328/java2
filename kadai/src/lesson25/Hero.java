@@ -1,6 +1,7 @@
 package lesson25;
 
 public class Hero {
+
 	//コンストラクターの定義
 	private String name;
 	String message1 = "ステータス";
@@ -11,7 +12,6 @@ public class Hero {
 	int speed = 300;
 	int defense = 300;
 	
-	
 public void setName(String n){
 	name = n;
 }
@@ -20,7 +20,8 @@ public String getName(){
 	return name;
 }
 
-public void display(){	
+public void display(){
+	
 	System.out.println("こんにちは「"+name+"」さん");
 	System.out.println(message1);
 	System.out.println("HP："+this.HP);
@@ -32,8 +33,6 @@ public void display(){
 }
 
 }
-
-
 
 /*
 
