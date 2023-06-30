@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args ) {
 		
 		System.out.println("あなたの名前を入力して下さい");
+		//名前を入力できる機能
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         String name = scanner.nextLine();
         

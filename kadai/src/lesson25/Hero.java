@@ -12,12 +12,58 @@ public class Hero {
 	int speed = 300;
 	int defense = 300;
 	
+	//nameのセッター、ゲッターの定義
 public void setName(String n){
 	name = n;
 }
 
 public String getName(){
 	return name;
+}
+
+	//HPのセッター、ゲッターの定義
+public void setHP(int H){
+	HP = H;
+}
+
+public int getHP(){
+	return HP;
+}
+
+	//MPのセッター、ゲッターの定義
+public void setMP(int M){
+	MP = M;
+}
+
+public int getMP(){
+return MP;
+}
+
+	//attackのセッター、ゲッターの定義
+public void setattack(int A){
+	attack = A;
+}
+
+public int getattack(){
+	return attack;
+}
+
+	//speedのセッター、ゲッターの定義
+public void setspeed(int S){
+	speed = S;
+}
+
+public int getspeed(){
+	return speed;
+}
+	
+	//defenseのセッター、ゲッターの定義
+public void setdefense(int D){
+	speed = D;
+}
+
+public int getdefense(){
+	return defense;
 }
 
 public void display(){
@@ -33,27 +79,3 @@ public void display(){
 }
 
 }
-
-/*
-
-名前を入力したら下記がコンソールに出力されるように作ってください
-	条件：数値は毎回変わるように作ってください
-	 	 サブクラスを使用してください
-	 	 メソッドのオーバーライドを使用してください
-		 superクラスを使用してください
-		 getterとsetterを使用してください
-		 packageを2つ作ってメインと処理を分けてください
-		 命名する場合は規則にのっとってください
-		 コンストラクタを使用してください
-
-	こんにちは 「 名前 」 さん
-	ステータス
-	HP：849
-	MP：862
-	攻撃力：375
-	素早さ：937
-	防御力：24
-
-	さあ冒険に出かけよう！
-
-*/

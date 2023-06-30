@@ -4,7 +4,7 @@ import java.util.Random;
 public class Hero2 extends Hero {
 	
 	//数値を毎回変える為の定義
-	//HPとMPは500～999の間で表示
+	//HPとMPは500～999の間で表示させるように定義
 	
 	Random rand = new Random();
 	int HP =rand.nextInt(500)+500;
